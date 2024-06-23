@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 80vh;
+}
+.currency{
+    background-color: rgb(231, 156, 65);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 2rem;
+    border-style: groove;
+    border-color: orangered;
+    width: 50vh;
+    min-height: 50vh;
+}
+form select, button, input{
+    border: none;
+    width: 50%;
+    border-radius: 0.5rem;
+}
+form input{
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    width: 40%;
+    font-size: 1 rem;
+    border-radius: 0.25rem;
+    height: 1rem;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.amt{
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.from{
+    font-weight: bold;
+}
+.to{
+    font-weight: bold;
+}
+.msg{
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button{
+    font-weight: bold;
+    width: 30%;
+    height: 3rem;
+    margin-left: 120px;
+    background-color: blueviolet;
+}
+}
